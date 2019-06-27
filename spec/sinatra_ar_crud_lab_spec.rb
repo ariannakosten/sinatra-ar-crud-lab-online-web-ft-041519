@@ -131,12 +131,7 @@ describe "Magazine App" do
       visit "/articles/#{@article2.id}"
       expect(find("[name=_method]", :visible => false).value).to match(/delete/i)
     end
-
   end
-
-
-
-
-
-
+  
 end
+
